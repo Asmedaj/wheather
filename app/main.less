@@ -1,0 +1,136 @@
+body {
+    background-color: cornflowerblue;
+    
+}
+.widget {
+    width: 800px;
+    min-height: 500px;
+    background-image: url(./build/img/bg.jpg);
+    color: #aaeaf6;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+.city-view {
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 50px 20px 50px 0;
+    border-radius: 50%;
+    background-color: #4e4e50;
+    overflow: hidden;
+    text-align: center;
+    box-shadow:  3px 3px 3px #5f7572,
+    -3px -3px 3px #5f7572,3px -3px 3px #5f7572, -3px 3px 3px #5f7572;
+}
+.temperature {
+  float: left;
+  clear: left;
+  margin: 50px 0 0 100px;
+  font: bold 40px Arial;
+}
+img {
+  float: right;
+  clear: right;
+  margin: 45px 100px 0 0 ;
+}
+.weather {
+  clear: both;
+  margin: 100px 0 10px 0;
+  text-align: center;
+  font-size: 26px;
+}
+.weather span {
+  display: block;
+}
+
+.wind {
+  display: inline-block;
+  font-size: 18px;
+}
+.humidity {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.clouds {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  width: 300px;
+  margin: 10px auto;
+  padding-top: 15px;
+  border-top: 2px solid #a7a7a9;
+  text-align: center;
+}
+h1.no-city {
+  margin-top: 180px;
+}
+.sunrise {
+  margin-right: 40px;
+}
+.pressure {
+  margin-top: 10px;
+}
+.sunrise, 
+.sunset {
+  display: inline-block;
+}
+.city-control {
+    position: relative;
+    width: 400px; 
+    margin: 50px 0 0 20px;
+}
+.city-name {
+    width: 200px;
+    padding: 5px 15px;
+    font: 20px Arial;
+}
+
+.btn-add-city {
+    display: inline-block;          
+    width: 100px;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 20px; 
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #aaeaf6;
+    background-color: #4e4e50; 
+    cursor: pointer;
+    vertical-align: top;
+}
+.city-list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.city-list li {
+   width: 100%;
+   margin-bottom: 10px;
+}
+.active .btn-city{
+    color: #4e4e50;
+    background-color: #aaeaf6;
+}
+.btn-city {
+    width: 290px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: 1px solid #4e4e50;
+    border-radius: 10px;
+    color: #aaeaf6;
+    background-color: #4e4e50;
+    cursor: pointer;
+}
+.btn-del-city {
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #aaeaf6;
+    background-color: #4e4e50;
+    cursor: pointer;
+}
